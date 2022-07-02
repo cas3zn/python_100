@@ -15,14 +15,17 @@ Day 2:
 Day 3:
 
 - Control Flow and Logical Operators
+- Project: Treasure Hunt
 
 Day 4:
 
 - Randomisation and Python Lists
+- Project: Rock Paper Scissors
 
 Day 5:
 
 - Python Loops
+- Project: Random Password Generator
 
 Day 6:
 
