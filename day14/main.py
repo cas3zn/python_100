@@ -9,10 +9,7 @@
 
   # import modules
 import random
-from re import A
-from art import logo
-from art import vs
-import os
+from art import logo, vs
 from game_data import data
   
 #This function runs the game
