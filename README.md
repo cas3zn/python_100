@@ -1,8 +1,6 @@
-# pyprojects
+# 100 projects of my 100 Days of Python challenge
 
-## 100 projects of my 100 Days of Python challenge
-
-### Beginner Level
+## Beginner Level
 
 - Day 1: Working with Variables in Python to Manage Data
 - Day 2: Understanding Data Types and How to Manipulate Strings
@@ -16,7 +14,12 @@
 - Day 12: Scope (Global, local scopes and constants)
 - Day 13: Debugging: How to find and fix errors in your code
 
-#### Projects - Beginner
+## Intermediate Level
+
+- Day 15: Local Development Environment Setup
+- Day 16: Object Oriented Programming
+
+### Projects
 
 - [x] Day 3: Treasure Hunt
 - [x] Day 4: Rock Paper Scissors
@@ -27,13 +30,6 @@
 - [x] Day 11: BlackJack Capstone
 - [x] Day 12: Number Guessing game
 - [x] Day 14: Higher Lower Game
-
-### Intermediate Level
-
-- Day 15: Local Development Environment Setup
-- Day 16: Object Oriented Programming
-
-#### Projects - Intermediate
 
 - [x] Day 15: Coffee Machine
 - [x] Day 16: Coffee Machine in OOP
