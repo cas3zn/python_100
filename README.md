@@ -18,15 +18,15 @@
 
 #### Projects - Beginner
 
-:white_check_mark: Day 3: Treasure Hunt
-:white_check_mark: Day 4: Rock Paper Scissors
-:white_check_mark: Day 5: Random Password Generator
-:white_check_mark: Day 7: Hangman
-:white_check_mark: Day 8: Caesar Cipher
-:white_check_mark: Day 9: Secret Auction
-:white_check_mark: Day 11: BlackJack Capstone
-:white_check_mark: Day 12: Number Guessing game
-:white_check_mark: Day 14: Higher Lower Game
+- [x] Day 3: Treasure Hunt
+- [x] Day 4: Rock Paper Scissors
+- [x] Day 5: Random Password Generator
+- [x] Day 7: Hangman
+- [x] Day 8: Caesar Cipher
+- [x] Day 9: Secret Auction
+- [x] Day 11: BlackJack Capstone
+- [x] Day 12: Number Guessing game
+- [x] Day 14: Higher Lower Game
 
 ### Intermediate Level
 
@@ -35,5 +35,5 @@
 
 #### Projects - Intermediate
 
-:white_check_mark: Day 15: Coffee Machine
-:white_check_mark: Day 16: Coffee Machine in OOP
+- [x] Day 15: Coffee Machine
+- [x] Day 16: Coffee Machine in OOP
