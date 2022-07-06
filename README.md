@@ -18,6 +18,7 @@
 
 - Day 15: Local Development Environment Setup
 - Day 16: Object Oriented Programming
+- Day 17: Benefits of OOP
 
 ### Projects
 
@@ -33,3 +34,4 @@
 
 - [x] Day 15: Coffee Machine
 - [x] Day 16: Coffee Machine in OOP
+- [x] Day 17: Quiz project
