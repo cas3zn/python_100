@@ -19,6 +19,7 @@
 - Day 15: Local Development Environment Setup
 - Day 16: Object Oriented Programming
 - Day 17: Benefits of OOP
+- Day 18: Turtle and the GUI
 
 ### Projects
 
@@ -35,3 +36,4 @@
 - [x] Day 15: Coffee Machine
 - [x] Day 16: Coffee Machine in OOP
 - [x] Day 17: Quiz project
+- [x] Day 18: Hirst Painting
