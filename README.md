@@ -24,6 +24,7 @@ Note: This is a personal repository that contains projects that I finished durin
 - Day 18: Turtle and the GUI
 - Day 19: Instances, State and Higher Order Functions
 - Day 20: Build the snake game Part 1: Animation and Coordinates
+- Day 21: Build the snake game Part 2: Inheritance and Slicing
 
 ### Projects
 
@@ -43,3 +44,4 @@ Note: This is a personal repository that contains projects that I finished durin
 - [x] Day 18: [Hirst Painting](https://github.com/cookieflakes2/cf2_udemy100Days_Pyprojects/tree/master/day18)
 - [x] Day 19: [Turtle racing bet game](https://github.com/cookieflakes2/cf2_udemy100Days_Pyprojects/tree/master/day19)
 - [x] Day 20: [Snake Game Part 1](https://github.com/cookieflakes2/cf2_udemy100Days_Pyprojects/tree/master/day20)
+- [x] Day 21: [Snake Game Part 2](https://github.com/cookieflakes2/cf2_udemy100Days_Pyprojects/tree/master/day21)
