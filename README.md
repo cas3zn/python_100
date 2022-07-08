@@ -1,5 +1,7 @@
 # 100 projects of my 100 Days of Python challenge
 
+Note: This is a personal repository that contains projects that I finished during my #100daysofcode journey. Not all projects have been included in this repository.
+
 ## Beginner Level
 
 - Day 1: Working with Variables in Python to Manage Data
