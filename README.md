@@ -17,23 +17,25 @@
 ## Intermediate Level
 
 - Day 15: Local Development Environment Setup
-- Day 16: Object Oriented Programming
+- Day 16: Object-Oriented Programming
 - Day 17: Benefits of OOP
 - Day 18: Turtle and the GUI
+- Day 19: Instances, State and Higher Order Functions
 
 ### Projects
 
-- [x] Day 3: Treasure Hunt
-- [x] Day 4: Rock Paper Scissors
-- [x] Day 5: Random Password Generator
-- [x] Day 7: Hangman
-- [x] Day 8: Caesar Cipher
-- [x] Day 9: Secret Auction
-- [x] Day 11: BlackJack Capstone
-- [x] Day 12: Number Guessing game
-- [x] Day 14: Higher Lower Game
+- [x] Day 3: [Treasure Hunt](https://github.com/cookieflakes2/cf2_udemy100Days_Pyprojects/tree/master/day3)
+- [x] Day 4: [Rock Paper Scissors](https://github.com/cookieflakes2/cf2_udemy100Days_Pyprojects/tree/master/day4)
+- [x] Day 5: [Random Password Generator](https://github.com/cookieflakes2/cf2_udemy100Days_Pyprojects/tree/master/day5)
+- [x] Day 7: [Hangman](https://github.com/cookieflakes2/cf2_udemy100Days_Pyprojects/tree/master/day7)
+- [x] Day 8: [Caesar Cipher](https://github.com/cookieflakes2/cf2_udemy100Days_Pyprojects/tree/master/day8)
+- [x] Day 9: [Secret Auction](https://github.com/cookieflakes2/cf2_udemy100Days_Pyprojects/tree/master/day9)
+- [x] Day 11: [BlackJack Capstone](https://github.com/cookieflakes2/cf2_udemy100Days_Pyprojects/tree/master/day11)
+- [x] Day 12: [Number Guessing game](https://github.com/cookieflakes2/cf2_udemy100Days_Pyprojects/tree/master/day12)
+- [x] Day 14: [Higher Lower Game](https://github.com/cookieflakes2/cf2_udemy100Days_Pyprojects/tree/master/day14)
 
-- [x] Day 15: Coffee Machine
-- [x] Day 16: Coffee Machine in OOP
-- [x] Day 17: Quiz project
-- [x] Day 18: Hirst Painting
+- [x] Day 15: [Coffee Machine](https://github.com/cookieflakes2/cf2_udemy100Days_Pyprojects/tree/master/day15)
+- [x] Day 16: [Coffee Machine in OOP](https://github.com/cookieflakes2/cf2_udemy100Days_Pyprojects/tree/master/day16)
+- [x] Day 17: [Quiz project](https://github.com/cookieflakes2/cf2_udemy100Days_Pyprojects/tree/master/day17)
+- [x] Day 18: [Hirst Painting](https://github.com/cookieflakes2/cf2_udemy100Days_Pyprojects/tree/master/day18)
+- [x] Day 19: [Turtle racing bet game](https://github.com/cookieflakes2/cf2_udemy100Days_Pyprojects/tree/master/day19)
