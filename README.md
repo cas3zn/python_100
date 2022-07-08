@@ -21,6 +21,7 @@
 - Day 17: Benefits of OOP
 - Day 18: Turtle and the GUI
 - Day 19: Instances, State and Higher Order Functions
+- Day 20: Build the snake game Part 1: Animation and Coordinates
 
 ### Projects
 
@@ -39,3 +40,4 @@
 - [x] Day 17: [Quiz project](https://github.com/cookieflakes2/cf2_udemy100Days_Pyprojects/tree/master/day17)
 - [x] Day 18: [Hirst Painting](https://github.com/cookieflakes2/cf2_udemy100Days_Pyprojects/tree/master/day18)
 - [x] Day 19: [Turtle racing bet game](https://github.com/cookieflakes2/cf2_udemy100Days_Pyprojects/tree/master/day19)
+- [x] Day 20: [Snake Game Part 1](https://github.com/cookieflakes2/cf2_udemy100Days_Pyprojects/tree/master/day20)
