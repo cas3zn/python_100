@@ -46,3 +46,4 @@ Note: This is a personal repository that contains projects that I finished durin
 - [x] Day 20: [Snake Game Part 1](https://github.com/cookieflakes2/cf2_udemy100Days_Pyprojects/tree/master/day20)
 - [x] Day 21: [Snake Game Part 2](https://github.com/cookieflakes2/cf2_udemy100Days_Pyprojects/tree/master/day21)
 - [x] Day 22: [Pong: The Famous Arcade Game](https://github.com/cookieflakes2/cf2_udemy100Days_Pyprojects/tree/master/day22)
+- [x] Day 23: [The Turtle Crossing Capstone Project](https://github.com/cookieflakes2/cf2_udemy100Days_Pyprojects/tree/master/day23)
