@@ -25,6 +25,7 @@ Note: This is a personal repository that contains projects that I finished durin
 - Day 19: Instances, State and Higher Order Functions
 - Day 20: Build the snake game Part 1: Animation and Coordinates
 - Day 21: Build the snake game Part 2: Inheritance and Slicing
+- Day 24: Files, Directories and Paths
 
 ### Projects
 
