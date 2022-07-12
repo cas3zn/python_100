@@ -32,3 +32,4 @@ Note: This is a personal repository that contains projects that I finished durin
 - [Day 23](https://github.com/cookieflakes2/cf2_udemy100Days_Pyprojects/tree/master/day23): The Turtle Crossing Capstone Project
 - [Day 24](https://github.com/cookieflakes2/cf2_udemy100Days_Pyprojects/tree/master/day24): Files, Directories and Paths
 - [Day 25](https://github.com/cookieflakes2/cf2_udemy100Days_Pyprojects/tree/master/day25): Working with CSV data and the Pandas library
+- [Day 26](https://github.com/cookieflakes2/cf2_udemy100Days_Pyprojects/tree/master/day26): List Comprehension and the NATO Alphabet
