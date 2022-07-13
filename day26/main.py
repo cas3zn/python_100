@@ -36,3 +36,4 @@ print(new_list)
 # uppercase_names = [name.upper() for name in names if len(name) >= 5]
 # print(uppercase_names)
 # ['CAROLINE', 'ELANOR', 'FREDDIE']
+
