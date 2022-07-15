@@ -34,3 +34,4 @@ Note: This is a personal repository that contains projects that I finished durin
 - [Day 25](https://github.com/cookieflakes2/cf2_udemy100Days_Pyprojects/tree/master/day25): Working with CSV data and the Pandas library
 - [Day 26](https://github.com/cookieflakes2/cf2_udemy100Days_Pyprojects/tree/master/day26): List Comprehension and the NATO Alphabet
 - [Day 27](https://github.com/cookieflakes2/cf2_udemy100Days_Pyprojects/tree/master/day27): Tkinter, *args, **kwargs and Creating GUI Programs
+- [Day 28](https://github.com/cookieflakes2/cf2_udemy100Days_Pyprojects/tree/master/day28): Tkinter, Dynamic Typing and the Pomodoro GUI Application
