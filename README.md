@@ -34,3 +34,4 @@
 - [Day 27](https://github.com/cookieflakes2/cf2_udemy100Days_Pyprojects/tree/master/day27): Tkinter, *args, **kwargs and Creating GUI Programs
 - [Day 28](https://github.com/cookieflakes2/cf2_udemy100Days_Pyprojects/tree/master/day28): Tkinter, Dynamic Typing and the Pomodoro GUI Application
 - [Day 29](https://github.com/cookieflakes2/cf2_udemy100Days_Pyprojects/tree/master/day29): Building a Password Manager GUI App with Tkinter
+- [Day 30](https://github.com/cookieflakes2/cf2_udemy100Days_Pyprojects/tree/master/day30): Errors, Exceptions and JSON Data: Improving the Password Manager App
