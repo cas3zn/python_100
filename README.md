@@ -46,6 +46,12 @@
 - [Day 36](https://github.com/cookieflakes2/cf2_udemy100Days_Pyprojects/tree/master/day36): Stock Trading News Alert Project
 - [Day 37](https://github.com/cookieflakes2/cf2_udemy100Days_Pyprojects/tree/master/day37): Habit Tracking Pixel Project
 - [Day 38](https://github.com/cookieflakes2/cf2_udemy100Days_Pyprojects/tree/master/day38): Build a Workout Tracking App that Talks to Google Sheets!
+- [Day 39](): Capstone Part 1: Flight Deal Finder
+- [Day 40](): Capstone Part 2: Flight Club!
+- Day 41: Introduction to HTML
+- Day 42: Intermediate HTML
+- Day 43: Introduction to CSS
+- Day 44: Intermediate CSS
 - [Day 45](https://github.com/cookieflakes2/cf2_udemy100Days_Pyprojects/tree/master/day45): Web Scraping with Beautiful Soup
 - [Day 46](https://github.com/cookieflakes2/cf2_udemy100Days_Pyprojects/tree/master/day46): Create a Spotify Playlist using the Musical Time Machine
 - [Day 47](https://github.com/cookieflakes2/cf2_udemy100Days_Pyprojects/tree/master/day47): Create an Automated Amazon Price Tracker
