@@ -1,7 +1,7 @@
 # 100 Days of Learning Python
 
-This repository is an inspiration from <a href="https://github.com/lenargasimov/100-days-of-python">`Lenargasimov's 100 days of Python`</a> and it contains projects that I have completed throughout the lessons I learnt from <a href="udemy.com/course/100-days-of-code/">`100 Days of Code: The Complete Python Pro Bootcamp for 2023
- by Angela Yu`</a> 
+This repository is an inspiration from <a href="https://github.com/lenargasimov/100-days-of-python">`Lenargasimov's 100 days of Python`</a> and it contains projects that I have completed throughout the lessons I learnt from [`100 Days of Code: The Complete Python Pro Bootcamp for 2023
+ by Angela Yu`](https://www.udemy.com/course/100-days-of-code/)
 
 ## Beginner Level
 
