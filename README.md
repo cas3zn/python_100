@@ -35,3 +35,21 @@
 - [Day 28](https://github.com/cookieflakes2/cf2_udemy100Days_Pyprojects/tree/master/day28): Tkinter, Dynamic Typing and the Pomodoro GUI Application
 - [Day 29](https://github.com/cookieflakes2/cf2_udemy100Days_Pyprojects/tree/master/day29): Building a Password Manager GUI App with Tkinter
 - [Day 30](https://github.com/cookieflakes2/cf2_udemy100Days_Pyprojects/tree/master/day30): Errors, Exceptions and JSON Data: Improving the Password Manager App
+- [Day 31](https://github.com/cookieflakes2/cf2_udemy100Days_Pyprojects/tree/master/day31): Flash Card App Capstone Project
+
+## Intermediate+ Level
+
+- [Day 32](https://github.com/cookieflakes2/cf2_udemy100Days_Pyprojects/tree/master/day32): Send Email (smtplib) & Manage Dates (datetime): The Automated Birthday Wisher
+- [Day 33](https://github.com/cookieflakes2/cf2_udemy100Days_Pyprojects/tree/master/day33): API Endpoints and API Parameters - ISS Overhead Notifier
+- [Day 34](https://github.com/cookieflakes2/cf2_udemy100Days_Pyprojects/tree/master/day34): API Practice - Creating a GUI Quiz App
+- [Day 35](https://github.com/cookieflakes2/cf2_udemy100Days_Pyprojects/tree/master/day35): Keys, Authentication & Environment Variables: Send SMS
+- [Day 36](https://github.com/cookieflakes2/cf2_udemy100Days_Pyprojects/tree/master/day36): Stock Trading News Alert Project
+- [Day 37](https://github.com/cookieflakes2/cf2_udemy100Days_Pyprojects/tree/master/day37): Habit Tracking Pixel Project
+- [Day 38](https://github.com/cookieflakes2/cf2_udemy100Days_Pyprojects/tree/master/day38): Build a Workout Tracking App that Talks to Google Sheets!
+- [Day 45](https://github.com/cookieflakes2/cf2_udemy100Days_Pyprojects/tree/master/day45): Web Scraping with Beautiful Soup
+- [Day 46](https://github.com/cookieflakes2/cf2_udemy100Days_Pyprojects/tree/master/day46): Create a Spotify Playlist using the Musical Time Machine
+- [Day 47](https://github.com/cookieflakes2/cf2_udemy100Days_Pyprojects/tree/master/day47): Create an Automated Amazon Price Tracker
+- [Day 48](https://github.com/cookieflakes2/cf2_udemy100Days_Pyprojects/tree/master/day48): Selenium Webdriver and Game Playing Bot
+- [Day 49](https://github.com/cookieflakes2/cf2_udemy100Days_Pyprojects/tree/master/day49): Automating Job Applications on LinkedIn
+- [Day 50](https://github.com/cookieflakes2/cf2_udemy100Days_Pyprojects/tree/master/day50): Automated Tinder Swiper
+- [Day 51](https://github.com/cookieflakes2/cf2_udemy100Days_Pyprojects/tree/master/day51): Internet Speed Twitter Complaint Bot
