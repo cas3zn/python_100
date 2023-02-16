@@ -1,4 +1,4 @@
-# My first 30 Days of Learning Python
+# 100 Days of Learning Python
 
 ## Beginner Level
 
