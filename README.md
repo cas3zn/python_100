@@ -62,3 +62,9 @@ This repository is an inspiration from <a href="https://github.com/lenargasimov/
 - [Day 49](https://github.com/cookieflakes2/cf2_udemy100Days_Pyprojects/tree/master/day49): Automating Job Applications on LinkedIn
 - [Day 50](https://github.com/cookieflakes2/cf2_udemy100Days_Pyprojects/tree/master/day50): Automated Tinder Swiper
 - [Day 51](https://github.com/cookieflakes2/cf2_udemy100Days_Pyprojects/tree/master/day51): Internet Speed Twitter Complaint Bot
+- [Day 52](https://github.com/cookieflakes2/cf2_udemy100Days_Pyprojects/tree/master/day52): Instagram Bot
+- [Day 53](https://github.com/cookieflakes2/cf2_udemy100Days_Pyprojects/tree/master/day53): Automated Data Entry Job
+- [Day 54](https://github.com/cookieflakes2/cf2_udemy100Days_Pyprojects/tree/master/day54): Introduction to Web Development with Flask
+- [Day 55](https://github.com/cookieflakes2/cf2_udemy100Days_Pyprojects/tree/master/day55):  HTML & URL Parsing in Flask and the Higher Lower Game
+- [Day 56](https://github.com/cookieflakes2/cf2_udemy100Days_Pyprojects/tree/master/day56): Rendering HTML/Static Files and Name Card Project
+- [Day 57](https://github.com/cookieflakes2/cf2_udemy100Days_Pyprojects/tree/master/day57): Templating with Jinja and Blog Project
