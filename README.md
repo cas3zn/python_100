@@ -69,3 +69,7 @@ This repository is an inspiration from <a href="https://github.com/lenargasimov/
 - [Day 56](https://github.com/cookieflakes2/cf2_udemy100Days_Pyprojects/tree/master/day56): Rendering HTML/Static Files and Name Card Project
 - [Day 57](https://github.com/cookieflakes2/cf2_udemy100Days_Pyprojects/tree/master/day57): Templating with Jinja and Blog Project
 - [Day 58](https://github.com/cookieflakes2/cf2_udemy100Days_Pyprojects/tree/master/day58): Web Foundation Bootstrap
+
+## Advanced Level
+
+- [Day 59](https://github.com/cookieflakes2/cf2_udemy100Days_Pyprojects/tree/master/day59): Blog Capstone Project Part 2 - Adding Styling
