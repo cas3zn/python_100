@@ -10,12 +10,31 @@
       <h1>All Cafes</h1>
 
 	  <table class="table table-dark table-striped table-hover">
-          <!-- This is where you will write the code to render a Bootstrap 
-          Table that contains all the information from the 
+          <!-- This is where you will write the code to render a Bootstrap Table that contains all the information from the 
           cafe-data.csv file. -->
-  	  </table>
-
-      <p><a href="#">Return to index page</a></p>
+        <thead>
+          <tr scope="col">Cafe Name</tr>
+          <tr scope="col">Location</tr>
+          <tr scope="col">Open</tr>
+          <tr scope="col">Close</tr>
+          <tr scope="col">Coffee</tr>
+          <tr scope="col">Wifi</tr>
+          <tr scope="col">Power</tr>
+        </thead>
+        <tbody>
+          {% foreach cafe in cafes %}
+          <td>{{ cafe["Cafe Name"] }}</td>
+          <td> <a href="{{ cafe['Location'] }}">Maps Link</a></td>
+          <td>{{ cafe["Open"] }}</td>
+          <td>{{ cafe["Close"] }}</td>
+          <td>{{ cafe["Coffee"] }}</td>
+          <td>{{ cafe["Wifi"] }}</td>
+          <td>{{ cafe["Power"] }}</td>
+          {% endfor %}
+        </tbody>
+  	</table>
+    <!-- Cafe Name,Location,Open,Close,Coffee,Wifi,Power -->
+    <p><a href="#">Return to index page</a></p>
 
     </div>
   </div>
