@@ -27,11 +27,36 @@ class Books(db.Model):
 with app.app_context():
     db.create_all()
 
-# create the record
+# CREATE a record
 with app.app_context():
-    new_book = Books(id=11, title="Harry Potter", author="J. K. Rowling", rating=9.3)
+    new_book = Books(title="Harry Potter", author="J. K. Rowling", rating=9.3)
     db.session.add(new_book)
     db.session.commit()
+
+# READ records
+with app.app_context():
+    result = db.session.execute(db.select(Books).order_by(Books.title))
+    all_books = result.scalars()
+    # to get a single element we can use scalar() instead of scalars()
+
+# UPDATE a record by query
+with app.app_context():
+    book_to_update = db.session.execute(db.select(Books).where(Books.title == "Harry Potter")).scalar()
+    book_to_update.title = "Harry Potter and the Chamber of Secrets"
+    
+    '''
+    If you want to update by primary key, you can use the db.get_or_404() instead of db.session.execute()
+    '''
+
+    db.session.commit()
+
+# DELETE a record by primary key
+book_id = 1
+with app.app_context():
+    book_to_delete = db.get_or_404(Books, book_id)
+    db.session.delete(book_to_delete)
+    db.session.commit()
+
 
 @app.route('/')
 def home():
