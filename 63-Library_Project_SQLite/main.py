@@ -51,9 +51,17 @@ def add():
 @app.route("/edit", methods=["GET", "POST"])
 def edit():
     if request.method == "POST":
-        new_rating = request.form["new_rating"]
+        book_id = request.form["id"]
+        book_to_update = db.get_or_404(Book, book_id)
+        book_to_update.rating = request.form["new_rating"]
+        db.session.commit()
 
-    return render_template("edit.html")
+        return redirect(url_for('home'))
+    
+    book_id = request.args.get('id')
+    book_selected = db.get_or_404(Book, book_id)
+
+    return render_template("edit.html", book=book_selected)
 
 
 if __name__ == "__main__":
