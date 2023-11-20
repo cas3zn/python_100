@@ -5,19 +5,8 @@ from flask_wtf import FlaskForm
 from wtforms import StringField, SubmitField
 from wtforms.validators import DataRequired
 import requests
+import os
 
-'''
-Red underlines? Install the required packages first: 
-Open the Terminal in PyCharm (bottom left). 
-
-On Windows type:
-python -m pip install -r requirements.txt
-
-On MacOS type:
-pip3 install -r requirements.txt
-
-This will install the packages from requirements.txt for this project.
-'''
 # create the extension
 db = SQLAlchemy()
 
@@ -30,6 +19,11 @@ app.config["SQLALCHEMY_DATABASE_URI"] = "sqlite:///a-100-movies-to-watch.db"
 
 # initialize the app with the extension
 db.init_app(app)
+
+# CSRF protection
+SECRET_KEY = os.urandom(32)
+app.config['SECRET_KEY'] = SECRET_KEY
+
 
 # define the models
 class Movie(db.Model):
@@ -45,26 +39,12 @@ class Movie(db.Model):
 # create the table
 with app.app_context():
     db.create_all()
-
-# create a new record
-'''
-second_movie = Movie(
-    title="Avatar The Way of Water",
-    year=2022,
-    description="Set more than a decade after the events of the first film, learn the story of the Sully family (Jake, Neytiri, and their kids), the trouble that follows them, the lengths they go to keep each other safe, the battles they fight to stay alive, and the tragedies they endure.",
-    rating=7.3,
-    ranking=9,
-    review="I liked the water.",
-    img_url="https://image.tmdb.org/t/p/w500/t6HIqrRAclMCA60NsSmeqe9RmNV.jpg"
-)
-
-
-# add it to the database
-with app.app_context():
-    db.session.add(second_movie)
-    db.session.commit()
-'''
     
+# create the Form using Flask
+class RateMovieForm(FlaskForm):
+    rating = StringField("Your Rating Out of 10 e.g. 7.5")
+    review = StringField("Your Review")
+    submit = SubmitField("Done")
 
 @app.route("/")
 def home():
@@ -72,6 +52,20 @@ def home():
     all_movies = result.scalars()
 
     return render_template("index.html", movies=all_movies)
+
+# Updating the movie rating and review
+@app.route("/edit", methods=["GET", "POST"])
+def rate_movie():
+    form = RateMovieForm()
+    movie_id = request.args.get("id")
+    movie = db.get_or_404(Movie, movie_id)
+    if form.validate_on_submit():
+        movie.rating = float(form.rating.data)
+        movie.review = form.review.data
+        db.session.commit()
+        return redirect(url_for('home'))
+    
+    return render_template("edit.html", movie=movie, form=form)
 
 
 if __name__ == '__main__':
