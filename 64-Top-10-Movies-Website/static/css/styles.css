@@ -18,9 +18,10 @@
 .large {
      font-size: 3rem;
 }
- .content {
+
+ .container {
 	 display: flex;
-	 margin: 0 auto;
+	 margin: 5% auto;
 	 justify-content: center;
 	 align-items: center;
 	 flex-wrap: wrap;
@@ -63,8 +64,8 @@
  .card {
 	 color: inherit;
 	 cursor: pointer;
-	 width: calc(33% - 3rem);
-	 min-width: calc(33% - 3rem);
+	 width: calc(33% - 1.5rem);
+	 min-width: calc(33% - 1.5rem);
 	 height: 400px;
 	 min-height: 400px;
 	 perspective: 1000px;
