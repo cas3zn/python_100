@@ -61,9 +61,24 @@ class AddMovieForm(FlaskForm):
 
 @app.route("/")
 def home():
-    result = db.session.execute(db.select(Movie))
-    all_movies = result.scalars()
+    # ----- make a list of movie ratings and sort list by highest value --------
 
+    list = []
+    for rating in db.session.execute(db.select(Movie.rating)).scalars():
+        list.append(rating)
+    list.sort(reverse=True)
+
+    # ------ update the movie.ranking in database -------
+
+    rank = 1
+    for value in list:
+        db.session.execute(db.select(Movie).where(Movie.rating == value)).scalar().ranking = rank
+        db.session.commit()
+        rank += 1
+
+    # ---------sort all movies by movie.ranking --------
+
+    all_movies = db.session.execute(db.select(Movie).order_by(Movie.ranking)).scalars()
     return render_template("index.html", movies=all_movies)
 
 # Updating the movie rating and review
@@ -106,6 +121,26 @@ def add_movie():
         return render_template("select.html", options=movie_results)
 
     return render_template("add.html", form=form)
+
+
+# Finding a movie by ID
+@app.route('/find')
+def find_movie():
+    movie_api_id = request.args.get("id")
+
+    if movie_api_id:
+        url_with_id = f"{url}/{movie_api_id}"
+        response = requests.get(url_with_id, headers=headers, params={"language": "en-US"})
+        data = response.json()
+        new_movie = Movie(
+            title=data["title"],
+            year=data["release_date"].split("-")[0],
+            img_url=f"https://image.tmdb.org/t/p/original/{data['poster_path']}",
+            description=data["overview"]
+        )
+        db.session.add(new_movie)
+        db.session.commit()
+        return redirect(url_for('home'))
 
 if __name__ == '__main__':
     app.run(debug=True)
