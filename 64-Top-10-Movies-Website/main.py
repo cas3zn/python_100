@@ -24,6 +24,15 @@ db.init_app(app)
 SECRET_KEY = os.urandom(32)
 app.config['SECRET_KEY'] = SECRET_KEY
 
+# TMDB API Key
+API_KEY = "d97bf4e53abaff7bb01620ac001cb870"
+API_READ_ACCESS_TOKEN = "eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJkOTdiZjRlNTNhYmFmZjdiYjAxNjIwYWMwMDFjYjg3MCIsInN1YiI6IjY1NWQwNmMxZmQ0YTk2MDEwMGRmZjA3ZCIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.erv6C_I64uY1I9yqz9QAqNwj0_qj4EdInQJHRMrhQZU"
+
+url = "https://api.themoviedb.org/3/search/movie?include_adult=false&language=en-US&page=1"
+headers = {
+    "accept": "application/json",
+    "Authorization": f"Bearer {API_READ_ACCESS_TOKEN}"
+}
 
 # define the models
 class Movie(db.Model):
@@ -40,11 +49,15 @@ class Movie(db.Model):
 with app.app_context():
     db.create_all()
     
-# create the Form using Flask
+# create the necessary forms using Flask
 class RateMovieForm(FlaskForm):
     rating = StringField("Your Rating Out of 10 e.g. 7.5")
     review = StringField("Your Review")
     submit = SubmitField("Done")
+
+class AddMovieForm(FlaskForm):
+    title = StringField("Movie Title", validators=[DataRequired()])
+    submit = SubmitField("Add Movie")
 
 @app.route("/")
 def home():
@@ -78,6 +91,21 @@ def delete_movie():
     db.session.commit()
 
     return redirect(url_for('home'))
+
+
+# Adding a movie
+@app.route("/add", methods=["GET", "POST"])
+def add_movie():
+    form = AddMovieForm()
+
+    if form.validate_on_submit():
+        movie_title = form.title.data
+        response = requests.get(url, headers=headers, params={"query": movie_title})
+        movie_results = response.json()["results"]
+
+        return render_template("select.html", options=movie_results)
+
+    return render_template("add.html", form=form)
 
 if __name__ == '__main__':
     app.run(debug=True)
